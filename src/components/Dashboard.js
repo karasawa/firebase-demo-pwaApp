@@ -40,7 +40,7 @@ const Dashboard = () => {
         if(dig(currentUser, 'currentUser', 'uid')){
             const data = await Api.initGet(currentUser.currentUser.uid);
             setTodos(data);
-        }   
+        }
     }
 
     const formRender = () => {

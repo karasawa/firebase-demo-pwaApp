@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles(() => ({
     root: {
-        maxWidth: 360,
+        width: 360,
         margin: "auto"
     },
     ul: {
